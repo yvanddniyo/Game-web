@@ -7,7 +7,7 @@ import gsap from "gsap";
 const Hero = () => {
     const [currentIndex, setCurrentIndex] = useState(1);
     const [hasClicked, setHasClicked] = useState(false)
-    const [isLoading, setIsLoading] = useState(true)
+    // const [isLoading, setIsLoading] = useState(true)
     const [loadedVideos, setLoadedVideos] = useState(0)
 
     const totalVideos = 3
@@ -114,7 +114,7 @@ const Hero = () => {
         </div>
         <h1 className="special-font hero-heading absolute  bottom-5 right-5 z-40 text-black">
                 G<b>a</b>ming
-            </h1>
+        </h1>
     </div>
   )
 }
